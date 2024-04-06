@@ -15,3 +15,5 @@ export { default as DBUser } from "./DBUser";
 export { default as DataTables } from "./DataTables";
 export { default as Spinner } from "./Spinner";
 
+export { default as Home } from "./Home";
+

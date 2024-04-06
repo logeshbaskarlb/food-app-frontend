@@ -17,6 +17,7 @@ const Header = () => {
   const dispatch = useDispatch()
 
   const firebaseAuth = getAuth(app)
+  
   const signOut = () =>{
     firebaseAuth.signOut()
     .then(()=>{
